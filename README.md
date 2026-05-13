@@ -1,4 +1,4 @@
-# micrograd-from-scratch
+# micrograd-from-scratch 🧠
 
 A tiny deep learning framework built from scratch in pure Python.
 
@@ -8,7 +8,7 @@ Built without PyTorch or TensorFlow for educational purposes — to understand w
 
 ---
 
-## Features
+## Features ⚡
 
 - Scalar-valued `Value` object
 - Dynamic computational graph
@@ -26,7 +26,7 @@ Built without PyTorch or TensorFlow for educational purposes — to understand w
 
 ---
 
-## Example
+## Example 🚀
 
 ```python
 loss.backward()
@@ -37,7 +37,7 @@ for p in model.parameters():
 
 ---
 
-## Project Structure
+## Project Structure 📂
 
 ```text
 .
@@ -49,7 +49,7 @@ for p in model.parameters():
 
 ---
 
-## Circle Classification
+## Circle Classification 🎯
 
 The MLP was trained on a nonlinear circle classification task:
 
@@ -63,7 +63,7 @@ Training result:
 
 ---
 
-## Example Computational Graph
+## Example Computational Graph 🕸️
 
 The project also supports visualization of computational graphs and gradient propagation.
 
@@ -71,7 +71,7 @@ The project also supports visualization of computational graphs and gradient pro
 
 ---
 
-## Why?
+## Why? 🤔
 
 The goal of this project was not performance, but understanding.
 
@@ -87,7 +87,7 @@ feel much less like magic.
 
 ---
 
-## Notes
+## Notes 🛠️
 
 This implementation is intentionally simple and uses scalar operations only.
 
@@ -95,7 +95,7 @@ It is dramatically slower than tensor-based frameworks like PyTorch because ever
 
 ---
 
-## Inspired By
+## Inspired By 💡
 
 - Andrej Karpathy's micrograd
 - PyTorch autograd
